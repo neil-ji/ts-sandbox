@@ -1,3 +1,5 @@
+//@ts-nocheck
+
 export function bindLike(context: ThisType<any>, ...args: any[]): () => any {
     const self: Function = this;
 

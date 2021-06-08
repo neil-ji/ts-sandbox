@@ -1,3 +1,5 @@
+//@ts-nocheck
+
 export function callLike(context, ...args) {
     const TEMP_FUNC = Symbol("func");
     context[TEMP_FUNC] = this;

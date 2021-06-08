@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tsc && node env/typescript/index.js",
-    "test-only": "node env/typescript/index.js"
+    "test": "tsc && node dist/index.js",
+    "test-only": "node dist/index.js"
   },
   "keywords": [],
   "author": "",

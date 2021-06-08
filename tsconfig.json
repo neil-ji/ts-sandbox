@@ -2,9 +2,6 @@
     "include": [
         "src"
     ],
-    "exclude": [
-        "dist"
-    ],
     "compilerOptions": {
         "allowJs": true,
         "checkJs": true,
@@ -12,5 +9,6 @@
         "noImplicitAny": false,
         "module": "CommonJS",
         "target": "ESNext",
+        "outDir": "dist"
     }
 }
